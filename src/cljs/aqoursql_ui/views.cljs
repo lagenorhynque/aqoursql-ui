@@ -1,9 +1,6 @@
 (ns aqoursql-ui.views
-  (:require
-   [re-frame.core :as re-frame]
-   [aqoursql-ui.subs :as subs]
-   ))
-
+  (:require [aqoursql-ui.subs :as subs]
+            [re-frame.core :as re-frame]))
 
 ;; home
 
@@ -17,7 +14,6 @@
        "go to About Page"]]
      ]))
 
-
 ;; about
 
 (defn about-panel []
@@ -27,7 +23,6 @@
    [:div
     [:a {:href "#/"}
      "go to Home Page"]]])
-
 
 ;; main
 

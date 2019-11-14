@@ -1,13 +1,10 @@
 (ns aqoursql-ui.core
-  (:require
-   [reagent.core :as reagent]
-   [re-frame.core :as re-frame]
-   [aqoursql-ui.events :as events]
-   [aqoursql-ui.routes :as routes]
-   [aqoursql-ui.views :as views]
-   [aqoursql-ui.config :as config]
-   ))
-
+  (:require [aqoursql-ui.config :as config]
+            [aqoursql-ui.events :as events]
+            [aqoursql-ui.routes :as routes]
+            [aqoursql-ui.views :as views]
+            [re-frame.core :as re-frame]
+            [reagent.core :as reagent]))
 
 (defn dev-setup []
   (when config/debug?

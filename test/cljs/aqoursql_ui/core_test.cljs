@@ -1,7 +1,7 @@
 (ns aqoursql-ui.core-test
-  (:require [cljs.test :refer-macros [deftest testing is]]
-            [aqoursql-ui.core :as core]))
+  (:require [aqoursql-ui.core :as core]
+            [cljs.test :as t :refer-macros [deftest testing is]]))
 
-(deftest fake-test
-  (testing "fake description"
+(t/deftest fake-test
+  (t/testing "fake description"
     (is (= 1 2))))

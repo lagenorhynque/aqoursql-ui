@@ -1,9 +1,7 @@
 (ns aqoursql-ui.events
-  (:require
-   [re-frame.core :as re-frame]
-   [aqoursql-ui.db :as db]
-   [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
-   ))
+  (:require [aqoursql-ui.db :as db]
+            [day8.re-frame.tracing :refer-macros [fn-traced]]
+            [re-frame.core :as re-frame]))
 
 (re-frame/reg-event-db
  ::initialize-db
