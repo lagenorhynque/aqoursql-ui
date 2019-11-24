@@ -3,13 +3,14 @@
   :url "https://github.com/lagenorhynque/aqoursql-ui"
 
   :dependencies [[org.clojure/clojure "1.10.1"]
-                 [org.clojure/clojurescript "1.10.520"
+                 [org.clojure/clojurescript "1.10.597"
                   :exclusions [com.google.javascript/closure-compiler-unshaded
                                org.clojure/google-closure-library]]
                  [re-frame "0.10.9"]
+                 [re-graph "0.1.11"]
                  [reagent "0.8.1"]
                  [secretary "1.2.3"]
-                 [thheller/shadow-cljs "2.8.69"]]
+                 [thheller/shadow-cljs "2.8.74"]]
 
   :plugins [[lein-shell "0.5.0"]]
 
